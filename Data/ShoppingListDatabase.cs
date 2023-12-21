@@ -22,9 +22,9 @@ namespace Turcu_Alexandru_Gabriel_Lab8.Data
             _database.CreateTableAsync<Shop>().Wait();
         }
         public Task<int> DeleteShopAsync(Shop shop)
-        {
-            return _database.DeleteAsync(shop);
-        }
+{
+    return _database.DeleteAsync(shop);
+}
 
         public Task<List<Shop>> GetShopsAsync()
         {

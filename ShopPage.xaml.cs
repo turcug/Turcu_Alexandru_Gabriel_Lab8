@@ -55,4 +55,4 @@ public partial class ShopPage : ContentPage
             await Navigation.PopAsync();
         }
     }
-}
+ }

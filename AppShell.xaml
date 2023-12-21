@@ -25,6 +25,8 @@
             Title="About"
             ContentTemplate="{DataTemplate local:AboutPage}"
             />
-    </TabBar>
+    </TabBar>
+
+
 
 </Shell>
